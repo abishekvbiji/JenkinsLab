@@ -1,6 +1,6 @@
 Jenkinsfile (Declarative Pipeline)
 pipeline {
-    agent { docker 'php' }
+    agent any
     stages {
         stage('build') {
             steps {
